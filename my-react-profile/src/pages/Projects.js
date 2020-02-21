@@ -27,11 +27,11 @@ function Projects() {
         >
           <div className="card-body">
             A password generator made with Javascript that allows users to
-            select the character types and the length for a unique password. TRY
-            IT:
+            select the character types and the length for a unique password.
+            TRY IT:
           </div>
           <form action="https://wjhunter5315.github.io/Password-Gen/" target="_blank">
-            <input type="submit" value="Password Generator" />
+            <input type="submit" id="passwordLinkBtn" value="Password Generator" />
           </form>
         </div>
       </div>
@@ -61,7 +61,7 @@ function Projects() {
             create invoices, send bills, and manage projcts. TRY IT:{" "}
           </div>
           <form action="https://feelancer.herokuapp.com/" target="_blank">
-            <input type="submit" value="Feelancer" />
+            <input type="submit" id="feelancerLinkBtn" value="Feelancer" />
           </form>
         </div>
       </div>
@@ -91,7 +91,7 @@ function Projects() {
             used in major restaurant chains. TRY IT:{" "}
           </div>
           <form action="https://cheqmate.herokuapp.com/" target="_blank">
-            <input type="submit" value="Feelancer" />
+            <input type="submit" id="cheqmateLinkBtn" value="Feelancer" />
           </form>
         </div>
       </div>

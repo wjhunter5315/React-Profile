@@ -1,16 +1,19 @@
 import React from "react";
+import profilepic from "../assets/profilepic.jpg";
+console.log(profilepic);
 
 function HomePage() {
   return (
-    <div class="media">
+    <div className="media">
       <img
-        src="../../assets/profilepic.jpg"
+        src={profilepic}
         className="align-self-start mr-3"
+        id="profileBball"
         alt="me at a Dodgers game"
       />
-      <div class="media-body">
-        <h5 class="mt-0">About Me</h5>
-        <p>
+      <div className="media-body">
+        <h5 className="mt-0">About Me</h5>
+        <p className="aboutText">
           Full Stack Web Developer from the UCLA Extension Program. I have a
           background in writing (BA in English) and brewing coupled with the
           technical skills of Javascript, CSS, and the latest version of React.
