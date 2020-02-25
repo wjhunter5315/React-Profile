@@ -13,17 +13,23 @@ code {
     monospace;
 }
 
-#profileBball {
+#profileBrick {
   width: 30%;
   padding: 10px;
   margin-top: 8px;
+  border-radius: 65px;
 }
 
 .media {
   background-color: skyblue;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 4%;
   margin-right: 4%;
+}
+
+.media-body {
+  margin-top: 5%;
+  padding: 18px;
 }
 
 .aboutText {
@@ -50,4 +56,31 @@ code {
 #contactInfoBody {
   margin-left: 15%;
   margin-top: 12%;
+}
+
+#skillsCard {
+  width: 40%;
+}
+
+.card-header {
+  background-color: skyblue;
+}
+
+#eduCard {
+  margin-left: 5%;
+  width: 40%;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-bottom: 8%;
+}
+
+.footer {
+  height: 50px;
+  background-color: skyblue;
+  text-align: center;
+  position: sticky;
 }
