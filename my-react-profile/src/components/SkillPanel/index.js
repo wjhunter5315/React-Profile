@@ -3,47 +3,47 @@ import React from "react";
 function SkillPanel() {
   return (
     <div className="card" id="skillsCard">
-      <div className="card-header">Languages / Skills</div>
+      <div className="card-header" style={{fontSize: 20, textAlign: "center"}}>Languages / Skills</div>
       <div className="card-body">
         <blockquote className="blockquote mb-0">
-          <footer className="blockquote-footer">
+          <p className="blockquote-footer">
             HTML
-          </footer>
+          </p>
         </blockquote>
         <blockquote className="blockquote mb-0">
-          <footer className="blockquote-footer">
+          <p className="blockquote-footer">
             CSS
-          </footer>
+          </p>
         </blockquote>
         <blockquote className="blockquote mb-0">
-          <footer className="blockquote-footer">
+          <p className="blockquote-footer">
             JavaScript
-          </footer>
+          </p>
         </blockquote>
         <blockquote className="blockquote mb-0">
-          <footer className="blockquote-footer">
+          <p className="blockquote-footer">
             Node.js
-          </footer>
+          </p>
         </blockquote>
         <blockquote className="blockquote mb-0">
-          <footer className="blockquote-footer">
+          <p className="blockquote-footer">
             Express
-          </footer>
+          </p>
         </blockquote>
         <blockquote className="blockquote mb-0">
-          <footer className="blockquote-footer">
+          <p className="blockquote-footer">
             MySQL / Sequelize
-          </footer>
+          </p>
         </blockquote>
         <blockquote className="blockquote mb-0">
-          <footer className="blockquote-footer">
+          <p className="blockquote-footer">
             MongoDB / Mongoose
-          </footer>
+          </p>
         </blockquote>
         <blockquote className="blockquote mb-0">
-          <footer className="blockquote-footer">
+          <p className="blockquote-footer">
             React.js
-          </footer>
+          </p>
         </blockquote>
       </div>
     </div>

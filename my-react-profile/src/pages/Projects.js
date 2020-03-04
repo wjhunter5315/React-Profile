@@ -4,10 +4,11 @@ function Projects() {
   return (
     <div className="accordion" id="accordionExample">
       <div className="card">
-        <div className="card-header" id="headingOne">
+        <div className="card-header" id="headingOne" style={{textAlign: "center"}}>
           <h2 className="mb-0">
             <button
               className="btn btn-link"
+              id="pwText"
               type="button"
               data-toggle="collapse"
               data-target="#collapseOne"
@@ -36,10 +37,11 @@ function Projects() {
         </div>
       </div>
       <div className="card">
-        <div className="card-header" id="headingTwo">
+        <div className="card-header" id="headingTwo" style={{textAlign: "center"}}>
           <h2 className="mb-0">
             <button
               className="btn btn-link collapsed"
+              id="flText"
               type="button"
               data-toggle="collapse"
               data-target="#collapseTwo"
@@ -66,10 +68,11 @@ function Projects() {
         </div>
       </div>
       <div className="card">
-        <div className="card-header" id="headingThree">
+        <div className="card-header" id="headingThree" style={{textAlign: "center"}}>
           <h2 className="mb-0">
             <button
               className="btn btn-link collapsed"
+              id="cheqText"
               type="button"
               data-toggle="collapse"
               data-target="#collapseThree"

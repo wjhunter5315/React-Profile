@@ -31,7 +31,7 @@ function NavBar() {
     // }, []);
         
   return (
-    <div style={{backgroundColor: "skyblue"}}>
+    <div style={{backgroundColor: "skyblue", fontFamily: "Cinzel"}}>
       <ul className="nav nav-tabs">
         <li className="nav-item" id="aboutLink">
           <a className="nav-link" href="/">
