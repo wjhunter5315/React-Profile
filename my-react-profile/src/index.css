@@ -20,7 +20,7 @@ code {
   margin-top: 8px;
   border-top-left-radius: 65px;
   border-bottom-right-radius: 65px;
-  
+
 }
 
 .media {
@@ -55,7 +55,7 @@ code {
 .accordion {
   width: 75%;
   margin-left: 8%;
-  margin-top: 12%;
+  margin-top: 5%;
 }
 
 .nav-link {
@@ -64,13 +64,16 @@ code {
 
 #passwordLinkBtn {
   margin-inline-start: 35%;
+  margin-bottom: 2%;
 }
 #feelancerLinkBtn {
   margin-inline-start: 35%;
+  margin-bottom: 2%;
 }
 
 #cheqmateLinkBtn {
   margin-inline-start: 35%;
+  margin-bottom: 2%;
 }
 
 #contactInfoBody {

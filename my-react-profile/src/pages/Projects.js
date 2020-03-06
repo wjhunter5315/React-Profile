@@ -1,10 +1,13 @@
 import React from "react";
+import FLlogoS from "../assets/FLlogoS.png";
+import FLlogoText from "../assets/FLlogoText.png";
+import cheqmateLogo from "../assets/cheqmateLogo.svg";
 
 function Projects() {
   return (
     <div className="accordion" id="accordionExample">
       <div className="card">
-        <div className="card-header" id="headingOne" style={{textAlign: "center"}}>
+        <div className="card-header" id="headingOne" style={{textAlign: "center", height: "8rem"}}>
           <h2 className="mb-0">
             <button
               className="btn btn-link"
@@ -14,6 +17,7 @@ function Projects() {
               data-target="#collapseOne"
               aria-expanded="true"
               aria-controls="collapseOne"
+              style={{marginTop: "6%"}}
             >
               Password Generator
             </button>
@@ -48,7 +52,9 @@ function Projects() {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              Feelancer
+              <img src={FLlogoS} style={{height: "5rem", marginRight: "2rem"}}></img>
+              <img src={FLlogoText} style={{height: "3rem"}}></img>
+              
             </button>
           </h2>
         </div>
@@ -60,7 +66,7 @@ function Projects() {
         >
           <div className="card-body">
             Web Application designed to give freelance workers a system to
-            create invoices, send bills, and manage projcts. TRY IT:{" "}
+            create invoices, send bills, and manage projcts. TRY IT (imcomplete):{" "}
           </div>
           <form action="https://feelancer.herokuapp.com/" target="_blank">
             <input type="submit" id="feelancerLinkBtn" value="Feelancer" />
@@ -68,7 +74,7 @@ function Projects() {
         </div>
       </div>
       <div className="card">
-        <div className="card-header" id="headingThree" style={{textAlign: "center"}}>
+        <div className="card-header" id="headingThree" style={{textAlign: "center", height: "8rem"}}>
           <h2 className="mb-0">
             <button
               className="btn btn-link collapsed"
@@ -79,7 +85,8 @@ function Projects() {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              CheqMate
+              <img src={cheqmateLogo} style={{width: "14rem", marginTop: "11%"}}></img>
+              
             </button>
           </h2>
         </div>
