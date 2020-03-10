@@ -79,6 +79,11 @@ code {
 #contactInfoBody {
   margin-left: 15%;
   margin-top: 12%;
+  margin-bottom: 15%;
+}
+
+#contactCardBody {
+  text-align: center;
 }
 
 #skillsCard {
@@ -114,7 +119,7 @@ footer {
 #gMailImg {
   width: 60%;
   margin-top: 10%;
-  margin-left: 15%;
+  margin-left: 20%;
 }
 
 #gitHubImg {
@@ -127,10 +132,6 @@ footer {
   width: 85%;
   margin-top: 14%;
   margin-left: 10%;
-}
-
-#contactCardBody {
-  text-align: center;
 }
 
 #pwText {

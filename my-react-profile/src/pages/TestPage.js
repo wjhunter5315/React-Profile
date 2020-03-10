@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import profileBrick from "../assets/profileBrick.jpg";
 import profileGrey from "../assets/profileGrey.jpg";
+import ColorDrops from "../components/ColorDrops";
 
 const colors = {
     Blue: "#0066ff",
@@ -52,6 +53,9 @@ function TestPage() {
           ))}
       </select>
       <h1>{color}</h1>
+      <div className="colorTestSpot">
+        <ColorDrops />
+      </div>
     </div>
   );
 }

@@ -52,8 +52,8 @@ function Projects() {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              <img src={FLlogoS} style={{height: "5rem", marginRight: "2rem"}}></img>
-              <img src={FLlogoText} style={{height: "3rem"}}></img>
+              <img src={FLlogoS} style={{height: "5rem", marginRight: "2rem"}} alt=""></img>
+              <img src={FLlogoText} style={{height: "3rem"}} alt=""></img>
               
             </button>
           </h2>
@@ -85,7 +85,7 @@ function Projects() {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              <img src={cheqmateLogo} style={{width: "14rem", marginTop: "11%"}}></img>
+              <img src={cheqmateLogo} style={{width: "14rem", marginTop: "11%"}} alt=""></img>
               
             </button>
           </h2>
