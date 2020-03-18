@@ -14,7 +14,6 @@ function HomePage() {
 
   function altPic(e) {
     e.preventDefault();
-    console.log("Wiggle Test");
     setProfileState(profileOptions.profileGrey)
   }
 

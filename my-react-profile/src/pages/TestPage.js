@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import profileBrick from "../assets/profileBrick.jpg";
 import profileGrey from "../assets/profileGrey.jpg";
-import ColorDrops from "../components/ColorDrops";
+// import ColorDrops from "../components/ColorDrops";
+// import HoverBox from "../components/HoverBox";
+import Highlighter from "../components/Highlight";
 
 const colors = {
     Blue: "#0066ff",
@@ -26,7 +28,6 @@ function TestPage() {
 
   function handleClick(e) {
     e.preventDefault();
-    console.log("Wiggle Test");
     setProfileState(profileOption.profileGrey)
   }
 
@@ -53,11 +54,17 @@ function TestPage() {
           ))}
       </select>
       <h1>{color}</h1>
-      <div className="colorTestSpot">
-        <ColorDrops />
+      <div>
+        <Highlighter />
       </div>
     </div>
   );
 }
 
 export default TestPage;
+
+{/* <div>
+  <div className="colorTestSpot">
+    <ColorDrops />
+  </div>
+</div> */}
