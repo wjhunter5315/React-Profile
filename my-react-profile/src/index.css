@@ -151,3 +151,15 @@ footer {
   font-size: 28px;
   color: black;
 }
+
+#imageSlider {
+  height: 300px;
+}
+
+.container {
+  max-height: 200px;
+}
+
+#sliderSize {
+  height: 200px;
+}
