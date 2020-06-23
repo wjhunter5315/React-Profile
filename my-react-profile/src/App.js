@@ -8,6 +8,7 @@ import NavBar from './components/Navbar';
 import Footer from './components/Footer';
 import TestPage from "./pages/TestPage";
 import SliderPage from "./pages/SliderPage";
+import DragDropPage from "./pages/DragDrop";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/test" component={TestPage} />
           <Route exact path="/slider" component={SliderPage} />
+          <Route exact path="/dragdrop" component={DragDropPage} />
         </Switch>
         <Footer />
       </div>
