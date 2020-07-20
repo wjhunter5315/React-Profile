@@ -1,9 +1,9 @@
 import React from "react";
-import Canvas from "../components/Canvas/index.js"
+import Palette from "../components/Palette/index.js"
 
 function DragDropPage() {
    return (
-      <Canvas />
+      <Palette />
    )
 };
 

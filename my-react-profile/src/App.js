@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import TestPage from "./pages/TestPage";
 import SliderPage from "./pages/SliderPage";
 import DragDropPage from "./pages/DragDrop";
+import IronHand from './pages/IronHand';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/test" component={TestPage} />
           <Route exact path="/slider" component={SliderPage} />
           <Route exact path="/dragdrop" component={DragDropPage} />
+          <Route exact path="/ironhand" component={IronHand} />
         </Switch>
         <Footer />
       </div>

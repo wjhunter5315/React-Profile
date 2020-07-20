@@ -86,7 +86,7 @@ const initialRectangles = [
   }
 ];
 
-function Canvas() {
+function Palette() {
   const [rectangles, setRectangles] = React.useState(initialRectangles);
   const [selectedId, selectShape] = React.useState(null);
 
@@ -128,4 +128,4 @@ function Canvas() {
   );
 };
 
-export default Canvas;
+export default Palette;
