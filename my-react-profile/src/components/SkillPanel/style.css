@@ -1,0 +1,7 @@
+.blockquote-footer:hover {
+   background-color: #03a5fc;
+   border-style: outset;
+   border-radius: 6px;
+   color: black;
+   text-align: center;
+}

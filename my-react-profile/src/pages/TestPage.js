@@ -2,8 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import profileBrick from "../assets/profileBrick.jpg";
 import profileGrey from "../assets/profileGrey.jpg";
 // import ColorDrops from "../components/ColorDrops";
-// import HoverBox from "../components/HoverBox";
-// import Highlighter from "../components/Highlight";
 
 const colors = {
     Blue: "#0066ff",

@@ -73,7 +73,7 @@ function Projects() {
           </form>
         </div>
       </div>
-      <div className="card">
+      <div className="card" style={{marginBottom: '10%'}}>
         <div className="card-header" id="headingThree" style={{textAlign: "center", height: "8rem"}}>
           <h2 className="mb-0">
             <button
