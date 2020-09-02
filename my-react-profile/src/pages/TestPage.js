@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import profileBrick from "../assets/profileBrick.jpg";
 import profileGrey from "../assets/profileGrey.jpg";
 // import ColorDrops from "../components/ColorDrops";

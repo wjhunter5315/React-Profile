@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import SkillPanel from "../components/SkillPanel";
 import EduPanel from "../components/EduPanel";
 import profileBrick from "../assets/profileBrick.jpg";
@@ -35,7 +35,7 @@ function HomePage() {
         />
         <div className="media-body">
           <h5 className="mt-0">About Me</h5>
-          <p contenteditable className="aboutText">
+          <p className="aboutText">
             Full Stack Web Developer from the UCLA Extension Program. I have a
             background in writing (BA in English) and brewing coupled with the
             technical skills of Javascript, CSS, and the latest version of

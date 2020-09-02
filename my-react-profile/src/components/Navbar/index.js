@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function NavBar() {
     //TRYING TO LISTEN TO URL TO SET THE RIGHT ACTIVE TAB
